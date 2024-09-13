@@ -1,0 +1,11 @@
+Flask
+flask-cors
+mysql-connector-python
+werkzeug
+PyJWT
+pandas
+openpyxl
+fpdf2
+requests
+python-bidi>=0.4.2,<0.5.0
+xhtml2pdf

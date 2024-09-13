@@ -1,0 +1,105 @@
+1|ISO14000|Does the company claim to have an ISO 14000 or EMS certification?|S|Clarity AI|Yes/No
+2|BIODIVERSITY_IMPACT_REDUCTION|Does the company report on its impact on biodiversity or on activities to reduce its impact on the native ecosystems and species, as well as the biodiversity of protected and sensitive areas?|E|Clarity AI|Yes/No
+3|POLICY_FORCED_LABOR|Does the company have a policy to avoid the use of forced labor?|S|Clarity AI|Yes/No
+4|POLICY_EMISSIONS|Does the company have a policy to improve emission reduction?|E|Clarity AI|Yes/No
+5|POLICY_WATER_EFFICIENCY|Does the company have a policy to improve its water efficiency?|E|Clarity AI|Yes/No
+6|HUMAN_RIGHTS_VIOLATION_PAI|Number of identified cases of severe human rights issues and incidents.|S|Clarity AI|Number of breaches
+7|IMPROVEMENT_TOOLS_BUSINESS_ETHICS|Does the company have appropriate communication tools (whistle blower, ombudsman, suggestion box, hotline, newsletter, website, etc.) to improve general business ethics?|S|Clarity AI|Yes/No
+8|POLICY_CHILD_LABOR|Does the company have a policy to avoid the use of child labor?|S|Clarity AI|Yes/No
+9|ANALYTICCSR_COMP_INCENTIVES|Is the senior executive's compensation linked to CSR/H&S/Sustainability targets?|G|Clarity AI|Yes/No
+10|GLOBAL_COMPACT|Has the company signed the UN Global Compact?|G|Clarity AI|Yes/No
+11|ANALYTICQMS|Does the company claim to apply quality management systems, such as ISO 9000, Six Sigma, Lean Manufacturing, Lean Sigma, TQM or any other similar quality principles?|G|Clarity AI|Yes/No
+12|CSR_REPORTING_EXTERNAL_AUDIT|Does the company have an external auditor of its CSR/H&S/Sustainability report?|G|Clarity AI|Yes/No
+13|POLICY_BRIBERYAND_CORRUPTION|Does the company have a policy and/or processes in place to avoid bribery and corruption in all its operations?|S|Clarity AI|Yes/No
+14|WATER_USE_PAI_M10|Average amount of water consumed and reclaimed by the investee companies.|E|Clarity AI|Cubic meters / million EUR of revenue of investee companies
+15|BRIBERY_AND_CORRUPTION_PAI_INSUFFICIENT_ACTIONS|Cases of insufficient action taken to address breaches of standards of anti-corruption and anti-bribery.|G|Clarity AI|Yes/No
+16|POLICY_HUMAN_RIGHTS|Does the company have a policy to ensure the respect of human rights in general?|S|Clarity AI|Yes/No
+17|NATURAL_RESOURCE_USE_DIRECT|External cost of the direct extraction of minerals, metals, natural gas, oil, coal, forestry, agriculture and aggregates by the company. Direct external environmental impacts are those impacts that a company has on the environment through its own activiti|E|Clarity AI|USD (000)
+18|ANALYTICEMPLOYMENTCREATION|Employment growth over the last year.|G|Clarity AI|% growth in number of employees over last year
+19|LABELED_WOOD|Does the company claim to produce, source or distribute wood or forest products that are labeled (e.g., Forest Stewardship Council (FSC))?|E|Clarity AI|Yes/No
+20|CO2INDIRECTSCOPE3|Scope 3 emissions that occur in the value chain of the reporting company in tons of CO2e.|E|Clarity AI|Tons CO2e
+21|GRIEVANCE_REPORTING_PROCESS|Does the company have a formal grievance reporting process for concerns reporting misconduct or ethical concerns?|S|Clarity AI|Yes/No
+22|POLICY_DATA_PRIVACY|Does the company have a policy to protect customer and general public privacy and integrity?|S|Clarity AI|Yes/No
+23|HAZARDOUSWASTE|Total amount of hazardous waste produced in tons.|E|Clarity AI|Tons
+24|ENERGYUSETOTAL|Total energy consumed by a company within its operational control, including energy produced and purchased (e.g., electricity, steam, natural gas, coal, oil).|E|Clarity AI|GJ
+25|ANALYTICINDEPBOARD|Percentage of independent board members as reported by the company.|G|Clarity AI|%
+26|ANALYTICBOARDFEMALE|Percentage of females on the board.|G|Clarity AI|%
+27|ANALYTICNONEXECBOARD|Percentage of non-executive board members.|G|Clarity AI|%
+28|ANALYTICESTIMATEDCO2TOTAL|The estimated total CO2 and CO2 equivalents emission in tons. Total CO2e Emissions (Scope 1 + Scope 2 + Scope 3)|E|Clarity AI|Tons CO2e
+29|ANALYTIC_VOTING_RIGHTS|Are all shares of the company providing equal voting rights?|G|Clarity AI|Yes/No
+30|RENEWENERGYCONSUMED|Total renewable energy consumed in Gigajoules.|E|Clarity AI|GJ
+31|PARTICULATE_MATTER_EMISSIONS|Amount of particulate matter (a complex mixture of small liquid droplets and solid particulates suspended in the air) emitted by the company.|E|Clarity AI|Tons
+32|WATER_TECHNOLOGIES|Does the company develop products or technologies that are used for water treatment, purification or that improve water use efficiency?|E|Clarity AI|Yes/No
+33|CO2INDIRECTSCOPE2|Scope 2 emissions that result from the generation of purchased electricity, heating, cooling, and steam in tons of CO2e.|E|Clarity AI|Tons CO2e
+34|CEO_ANNUAL_COMPENSATION|Total annual compensation for the highest paid individual (normally the CEO).|G|Clarity AI|USD
+35|ORGANIC_PRODUCTS_INITIATIVES|Does the company report or show initiatives to produce or promote organic food or other products?|E|Clarity AI|Yes/No
+36|NOXEMISSIONS|Total amount of NOx emissions emitted in tons.|E|Clarity AI|Tons of NOx
+37|RENEWENERGYPRODUCED|Total renewable energy produced for self-consumption in Gigajoules.|E|Clarity AI|GJ
+38|ENV_SUPPLY_CHAIN_MGT|Does the company use environmental criteria (ISO 14000, energy consumption, etc.) in the selection process of its suppliers or sourcing partners?|E|Clarity AI|Yes/No
+39|ANALYTICWASTERECYCLINGRATIO|Total recycled and reused waste produced in tons divided by total waste produced in tons.|E|Clarity AI|%
+40|SOXEMISSIONS|Total amount of SOx emissions emitted in tons.|E|Clarity AI|Tons of SOx
+41|HUMAN_RIGHTS_CONTRACTOR|Does the company report or show to use human rights criteria in the selection or monitoring process of its suppliers or sourcing partners?|S|Clarity AI|Yes/No
+42|WASTETOTAL|Total amount of waste produced in tons.|E|Clarity AI|Tons
+43|TRANALYTICRENEWENERGYUSE|Total energy consumed from primary renewable energy sources divided by total energy consumed.|E|Clarity AI|%
+44|CO2DIRECTSCOPE1|Scope 1 emissions that occur within a company’s organizational boundary from sources that the company owns or controls in tons of CO2e.|E|Clarity AI|Tons CO2e
+45|RENEWENERGYPURCHASED|Total renewable energy purchased for self-consumption in Gigajoules.|E|Clarity AI|GJ
+46|VOCEMISSIONS|Amount of Volatile Organic Compounds (VOC) emitted by the company.|E|Clarity AI|Tons of VOC
+47|WASTE_RECYCLED|Total waste that is generated by the company and is recycled, reused or composted.|E|Clarity AI|Tons
+48|WATERWITHDRAWALTOTAL|Total water withdrawal in cubic meters.|E|Clarity AI|Cubic meters
+49|CLIMATE_CHANGE_RISKS_OPP|Is the company aware that climate change can represent commercial risks and/or opportunities?|E|Clarity AI|Yes/No
+50|EMPLOYEE_HEALTH_SAFETY_POLICY|Does the company have a policy to improve employee health & safety?|S|Clarity AI|Yes/No
+51|WOMENEMPLOYEES|Percentage of women employees.|S|Clarity AI|%
+52|POLICY_BOARD_DIVERSITY|Does the company have a policy regarding the gender diversity of its board?|S|Clarity AI|Yes/No
+53|TRADEUNIONREP|Percentage of employees represented by independent trade union organizations or covered by collective bargaining agreements.|S|Clarity AI|%
+54|EMPLOYEEFATALITIES|Number of employee fatalities resulting from operational accidents.|S|Clarity AI|Number of fatalities
+55|AUDITCOMMNONEXECMEMBERS|Percentage of non-executive board members on the audit committee as stipulated by the company.|G|Clarity AI|%
+56|TIRTOTAL|Rate of total number of injuries (Total Injury Rate TIR) and fatalities in the workforce (employees and contractors) relative to 1 million hours worked.|S|Clarity AI|Injured / million hours
+57|CEO_PAY_RATIO_MEDIAN|Already reported ratio of CEO compensation over median annual employee compensation. Must say median was used as denominator.|G|Clarity AI|Ratio
+58|ANNUAL_MEDIAN_COMPENSATION|Median annual compensation for the entire company, excluding the highest paid employee.|G|Clarity AI|USD
+59|CONFORMANCE_UN_GUID|Does the company  have clear reference to conformance with the UN Guiding Principles on Business and Human Rights?|S|Clarity AI|Yes/No
+60|ANALYTICCOMPCOMMIND|Percentage of independent board members on the compensation committee as stipulated by the company.|G|Clarity AI|%
+61|COMPCOMMNONEXECMEMBERS|Percentage of non-executive board members on the compensation committee as stipulated by the company.|G|Clarity AI|%
+62|AVGTRAININGHOURS|Average hours of training per year per employee.|G|Clarity AI|Hours/employee
+63|GENDER_PAY_GAP_PERCENTAGE|Percentage of remuneration of women to men.|S|Clarity AI|%
+64|CSR_REPORTINGGRI|Is the company's CSR report published in accordance with the GRI guidelines?|G|Clarity AI|Yes/No
+65|AIRPOLLUTANTS_INDIRECT|External cost of indirect emissions of pollutants to the air by the consumption of fossil fuels and production processes.|E|Clarity AI|USD (000)
+66|TOXIC_CHEMICALS_REDUCTION|Does the company report on initiatives to reduce, reuse, substitute or phase out toxic chemicals or substances?|E|Clarity AI|Yes/No
+67|SUPPLY_CHAINHS_POLICY|Does the company have a policy to improve employee health & safety in its supply chain?|S|Clarity AI|Yes/No
+68|CONFORMANCE_OECD_MNE|Does the company claim to follow the OECD Guidelines for Multinational Enterprises?|S|Clarity AI|Yes/No
+69|WHISTLEBLOWER_PROTECTION|Does the company have a provision or comply with regulations protecting whistleblowers?|S|Clarity AI|Yes/No
+70|TURNOVEREMPLOYEES|Percentage of employee turnover.|S|Clarity AI|%
+71|TARGETS_DIVERSITY_OPPORTUNITY|Has the company set targets or objectives to be achieved on diversity and equal opportunity?|S|Clarity AI|Yes/No
+72|DAY_CARE_SERVICES|Does the company claim to provide day care services for its employees?|S|Clarity AI|Yes/No
+73|ANALYTIC_AUDIT_COMM_EXPERTISE|Does the company have an audit committee with at least three members and at least one "financial expert" within the meaning of Sarbanes-Oxley?|G|Clarity AI|Yes/No
+74|TARGETS_EMISSIONS|Has the company set targets or objectives to be achieved on emission reduction?|E|Clarity AI|Yes/No
+75|POLICY_SUSTAINABLE_PACKAGING|Does the company have a policy to improve its use of sustainable packaging?|E|Clarity AI|Yes/No
+76|TARGETS_WATER_EFFICIENCY|Has the company set targets or objectives to be achieved on water efficiency?|E|Clarity AI|Yes/No
+77|ELIMINATION_CUM_VOTING_RIGHTS|Has the company reduced or eliminated cumulative voting in regard to the election of board members?|G|Clarity AI|Yes/No
+78|ANALYTICCEO_CHAIRMAN_SEPARATION|Does the CEO simultaneously chair the board or has the chairman of the board been the CEO of the company?|G|Clarity AI|Yes/No
+79|TAKEBACK_RECYCLING_INITIATIVES|Does the company reports about take-back procedures and recycling programs to reduce the potential risks of products entering the environment?|E|Clarity AI|Yes/No
+80|CALL_MEETINGS_LIMITED_RIGHTS|Has the company limited the rights of shareholders to call special meetings?|G|Clarity AI|Yes/No
+81|N_OXS_OX_EMISSIONS_REDUCTION|Does the company report on initiatives to reduce, reuse, recycle, substitute, or phase out SOx (sulfur oxides) or NOx (nitrogen oxides) emissions?|E|Clarity AI|Yes/No
+82|AIRPOLLUTANTS_DIRECT|External cost of pollutants released to air by the consumption of fossil fuels and production processes which are owned or controlled by the company.Direct external environmental impacts are those impacts that a company has on the environment through its own activities. Trucost applies monetary values to air pollutant quantites, which represents the global average damage of each environmental impact. All values employed are secondary - the synthesis of existing published and unpublished literature.|E|Clarity AI|USD (000)
+83|ANALYTIC_ANTI_TAKEOVER_DEVICES|The number of anti-takeover devices in place in excess of two.|G|Clarity AI|Yes/No
+84|ENV_INVESTMENTS|Does the company report on making proactive environmental investments or expenditures to reduce future risks or increase future opportunities?|E|Clarity AI|Yes/No
+85|ANIMAL_TESTING_REDUCTION|Has the company established a program or an initiative to reduce, phase out or substitute for animal testing?|S|Clarity AI|Yes/No
+86|VOC_EMISSIONS_REDUCTION|Does the company report on initiatives to reduce, substitute, or phase out volatile organic compounds (VOC)?|E|Clarity AI|Yes/No
+87|SUSTAINABLE_BUILDING_PRODUCTS|Does the company develop products and services that improve the energy efficiency of buildings?|E|Clarity AI|Yes/No
+88|WASTE_REDUCTION_TOTAL|Does the company report on initiatives to recycle, reduce, reuse, substitute, treat or phase out total waste?|E|Clarity AI|Yes/No
+89|E_WASTE_REDUCTION|Does the company report on initiatives to recycle, reduce, reuse, substitute, treat or phase out e-waste?|E|Clarity AI|Yes/No
+90|LOSTWORKINGDAYS|Total working days lost by the workforce (employees and contractors), due to some form of incapacity, including occupational diseases and injuries.|S|Clarity AI|Number of days
+91|ECO_DESIGN_PRODUCTS|Does the company report on specific products which are designed for reuse, recycling or the reduction of environmental impacts?|E|Clarity AI|Yes/No
+92|POLICY_FREEDOMOF_ASSOCIATION|Does the company describe, claim to have or mention the processes in place to ensure the freedom of association of its employees?|S|Clarity AI|Yes/No
+93|WOMENMANAGERS|Percentage of women managers.|S|Clarity AI|%
+94|ANALYTICAUDITCOMMIND|Percentage of independent board members on the audit committee as stipulated by the company.|G|Clarity AI|%
+95|HUMAN_RIGHTS_POLICY_DUEDILIGENCE|Does the company have a due diligence process in place to prevent/ act upon human right abuses? Both in its operations and suppliers’ operations?|S|Clarity AI|Yes/No
+96|ANALYTICNOMINATIONCOMMIND|Percentage of non-executive board members on the nomination committee.|G|Clarity AI|%
+97|BOARDMEETINGATTENDANCEAVG|The average overall attendance percentage of board meetings as reported by the company.|G|Clarity AI|%
+98|COMMMEETINGSATTENDANCEAVG|The average overall attendance percentage of board committee meetings as reported by the company.|G|Clarity AI|%
+99|ANALYTICNONAUDITAUDITFEESRATIO|All non-audit fees divided by the audit and audit-related fees paid to the group auditor.|G|Clarity AI|Non / audit USD / audit USD
+100|POLICY_BUSINESS_ETHICS|Does the company describe in the code of conduct that it strives to maintain the highest level of general business ethics?|S|Clarity AI|Yes/No
+101|ANALYTICTOTALDONATIONS|Total amount of all donations divided by net sales or revenue.|S|Clarity AI|USD donated per million of revenue USD
+102|EMS_CERTIFIED_PCT|The percentage of company sites or subsidiaries that are certified with any environmental management system.|E|Clarity AI|%
+103|ELECTRICITYPURCHASED|Electricity purchased in gigajoules.|E|Clarity AI|GJ
+104|ENERGYPURCHASEDDIRECT|Direct energy purchased in gigajoules.|E|Clarity AI|GJ
+105|CO2_NO_EQUIVALENTS|The estimated total CO2 emission in tons (without counting CO2 equivalents).|E|Clarity AI|Tons CO2

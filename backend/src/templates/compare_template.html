@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 1.5cm;
+    }
+    @media print {
+      div.header, div.section {
+        page-break-after: always;
+      }
+    }
+
+    div.header p.top {
+      color: #051182;
+      font-size: 24px;
+    }
+
+    div.header p.intro {
+      font-size: 16px;
+    }
+
+    span.title {
+      color: black;
+      margin-top: 100px;
+      text-align: center;
+      font-size: 60px;
+    }
+
+    span {
+      color: black;
+    }
+    
+    span.desc {
+      color: black;
+      font-size: 18px;
+    }
+
+    div.logo {
+      background: #0E141B;
+      height: 140px;
+      text-align: center;
+    }
+
+    h2 {
+      font: normal 24px;
+    }
+
+    .catgintro {
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    table {
+      margin: 0px;
+    }
+
+    tr.metric td {
+      text-align: left;
+      border: 0px;
+    }
+
+    td.name {
+      width: 35%;
+    }
+    td.industry {
+      width: 30%;
+    }
+
+    tr.heading td {
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 12px;
+      border: 1px solid black;
+      padding: 2px;
+      background: #e8eef6;
+    }
+
+    td {
+      font-size: 11px;
+      border: 1px solid black;
+      text-align: center;
+      padding: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <p class="top"> 
+      <span class="title">ESG Comparison Report</span><br><br><br>
+      <span class="desc">In the following report, we will be comparing the following companies across a number of ESG metrics:<br><br></span>
+      {% for company in companies %}
+      • {{company.name}}<br>
+      {% endfor %}<br>
+      <span class="year">Year: {{year}}</span>
+    </p>
+    <br><br><br><br><br><br><br><br><br><br>
+    <p class="intro">This ESG (Environmental, Social, and Governance) report provides a comprehensive overview of these companys' performances and initiatives in three key areas: environmental sustainability, social responsibility, and corporate governance. It aims to inform stakeholders, including investors, customers, and regulators, about their impact and efforts in these areas, often highlighting both achievements and areas for improvement.</p>
+    <div class="logo">
+      <img src="logo.png">
+    </div>
+  </div>
+  
+  <div class="section">
+    <h2>Environmental Metrics</h2>
+    <p class="catgintro">This pillar evaluates how a company impacts and manages the natural environment. It includes factors such as climate change policies, carbon footprint, and greenhouse gas emissions. Companies are assessed on their energy efficiency, use of renewable resources, and initiatives to reduce waste and pollution. Environmental considerations also cover how companies manage their water usage, biodiversity conservation, and their overall contribution to sustainability.</p>
+    {% for metric in e_metrics %}
+      <br><br>
+      <table>
+        <tr class="metric">
+          <td colspan="4"><b>{{metric.name}}</b> ({{metric.unit}})<br>{{metric.description}}</td>
+        </tr>
+        <tr class="heading">
+          <td class="name">Name</td><td class="industry">Industry</td><td>Value</td><td>Score</td>
+        </tr>
+        {% for company in metric.companies %}
+          <tr>
+            <td>{{company.name}}</td>
+            <td>{{company.industry}}</td>
+            <td>{{company.value}}</td>
+            <td>{{company.score}}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endfor %} 
+  </div>
+
+  <div class="section">
+    <h2>Social Metrics</h2>
+    <p class="catgintro">The social pillar examines how a company manages relationships with employees, suppliers, customers, and the communities in which it operates. This includes labor practices, employee health and safety, diversity and inclusion, and human rights. Social criteria also consider a company’s impact on the local community, product safety, and customer satisfaction. Companies are expected to foster positive relationships and contribute to the well-being of their stakeholders.</p> 
+    {% for metric in s_metrics %}
+      <br><br>
+      <table>
+        <tr class="metric">
+          <td colspan="4"><b>{{metric.name}}</b> ({{metric.unit}})<br>{{metric.description}}</td>
+        </tr>
+        <tr class="heading">
+          <td class="name">Name</td><td class="industry">Industry</td><td>Value</td><td>Score</td>
+        </tr>
+        {% for company in metric.companies %}
+          <tr>
+            <td>{{company.name}}</td>
+            <td>{{company.industry}}</td>
+            <td>{{company.value}}</td>
+            <td>{{company.score}}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endfor %}
+  </div>
+
+  <div class="section">
+    <h2>Governance Metrics</h2>
+    <p class="catgintro">Governance involves the internal system of practices, controls, and procedures a company adopts to govern itself, make effective decisions, comply with the law, and meet the needs of external stakeholders. This includes board diversity and structure, executive compensation, transparency, ethics, and shareholder rights. Strong governance ensures accountability and helps prevent corruption and conflicts of interest, fostering long-term sustainability and trust with investors and the public.</p> 
+    {% for metric in g_metrics %}
+      <br><br>
+      <table>
+        <tr class="metric">
+          <td colspan="4"><b>{{metric.name}}</b> ({{metric.unit}})<br>{{metric.description}}</td>
+        </tr>
+        <tr class="heading">
+          <td class="name">Name</td><td class="industry">Industry</td><td>Value</td><td>Score</td>
+        </tr>
+        {% for company in metric.companies %}
+          <tr>
+            <td>{{company.name}}</td>
+            <td>{{company.industry}}</td>
+            <td>{{company.value}}</td>
+            <td>{{company.score}}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endfor %} 
+  </div>
+
+
+</body>
+
+</html>
